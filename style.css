@@ -1,0 +1,50 @@
+*{
+    
+}
+body , html{
+    padding: 0px;
+    margin: 0px;
+    background-color: black;
+    height: 100%;
+}
+.logo > img{
+    height: 200px;
+}
+.container-1{
+    background-image: url(./img/20180904_120229.jpg);
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.6; 
+}
+#hello{
+    font-family: 'Pacifico', cursive;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 3vh;
+}
+#name{
+    font-family: 'Pacifico', cursive;
+    font-size:8vh;
+    margin: 0;
+}
+#about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+#dev{
+    font-family: 'Pacifico', cursive;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Fugaz One', cursive;
+    font-size: 4vh;
+}
+.container-2{
+    background-color: black;
+    opacity: 0.8;
+    height: 100%;
+}
+
